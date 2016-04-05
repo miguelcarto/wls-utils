@@ -24,7 +24,7 @@ To:
  - mds-owsm-rac2 (generic)
 
 To execute this action you should define a properties file that must contain 
-DS_RAC_NODES : A coma separated string that contains all the database rac nodes
-DS_TARGET : The cluster/server name that we must validate to select the datasources to modify, 
+- DS_RAC_NODES : A coma separated string that contains all the database rac nodes
+- DS_TARGET : The cluster/server name that we must validate to select the datasources to modify, 
 cause we are not interested in modifying the datasources that are only deployed to the admin server
-MW_TARGET : The Admin server url that we should use to connect and do the action
+- MW_TARGET : The Admin server url that we should use to connect and do the action
