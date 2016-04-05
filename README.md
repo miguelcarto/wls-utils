@@ -2,8 +2,8 @@
 
 Set of utilities to perform specific actions on an existing middleware installation
 The project contains 2 main folders
-config : Where the environment variables are set
-wlst : Where the wlst main scripts exist
+- config : Where the environment variables are set
+- wlst : Where the wlst main scripts exist
 
 Inside the wlst folder it will exist a lib folder where we should add costum python modules.
 
@@ -16,12 +16,12 @@ the STB (when we create our domains based on that info).
 We transform the existing generic datasource into a multi datasource with the same jndi name.
 
 From:
-	 mds-owsm (generic)
+- mds-owsm (generic)
 	 
 To: 
-	mds-owsm (multi)
-	mds-owsm-rac1 (generic)
-	mds-owsm-rac2 (generic)
+- mds-owsm (multi)
+ - mds-owsm-rac1 (generic)
+ - mds-owsm-rac2 (generic)
 
 To execute this action you should define a properties file that must contain 
 DS_RAC_NODES : A coma separated string that contains all the database rac nodes
