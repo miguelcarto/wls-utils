@@ -5,7 +5,7 @@ Rac-One specifications.
 
 """
 
-# dsRacNodes = ['labcoh01'] #['dbs01srvqavip01.mw.qa.geos.loc', 'dbs01srvqavip02.mw.qa.geos.loc', 'dbs01srvqavip03.mw.qa.geos.loc']
+# dsRacNodes = ['dbs01', 'dbs02', 'dbs03']
 # target = 'coh01_coh01_app'
 # mwTarget = 't3s://lab01g:10002'
 
